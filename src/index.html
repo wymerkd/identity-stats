@@ -4,24 +4,46 @@
   <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="randomuser.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Anton|BenchNine|Bowlby+One+SC&display=swap" rel="stylesheet">
 
 
   <title>Weather</title>
 </head>
 <body>
   <div class="container">
-    <h1>Identity Status</h1>
+    <h1>Identity <span class="blue">Stats</span></h1>
+
+
     <label for="country_code">
-      <input id="country_code"type="text" name="" value="">
+      <h5>Country Code</h5>
+      <input id="country_code"type="text" placeholder="001"name="" value="">
     </label>
+
+
     <label for="phone_number">
+      <h5>Phone Number</h5>
     <input id="phone_number"type="text" name="" value="">
     </label>
+
+    <div class="details">
+      <button class="btn-warning" id="detail-button">Go Details!</button><br>
+      <div class="alias"></div>
+      <div class="age_range"></div>
+      <div class="linkphone"></div>
+      <div class="addresses"></div>
+      <div class="state1"></div>
+      <div class="city1"></div>
+    </div>
+
+
+
+
+
 
 
     <div class="hide">
 
-    <button class="btn-warning" id="status-button">Go Status!</button><br>
+    <button class="btn-warning" id="status-button">Known hackers</button><br>
 
     <img id="profilePic" src="" alt="">
     <div class="name"></div>
@@ -36,10 +58,7 @@
     <div class="email"></div>
   </div>
 
-  <div class="details">
-    <button class="btn-warning" id="detail-button">Go Details!</button><br>
-    <div class="associates"></div>
-  </div>
+
 
 </div>
 </body>

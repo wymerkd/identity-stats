@@ -1,8 +1,24 @@
-/* .hide {
+.hide {
   display: none;
   color: red;
-} */
+}
 
 body {
   background-color: lightgrey;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+
+.blue {
+  font-family: 'Bowlby One SC', cursive;
+  color: dodgerblue;
+}
+h5 {
+  font-family: 'BenchNine', sans-serif
+}
+
+button {
+  font-family: 'Anton', sans-serif;
 }
