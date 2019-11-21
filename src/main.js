@@ -41,12 +41,18 @@ $(document).ready(function() {
     })();
 
     function getElementsAgain(detail) {
-      $('.alias').text(`Alias: ${detail.belongs_to[0].firstname} ${detail.belongs_to[0].lastname}`);
+      $('.alias').text(`Alias: ${detail.belongs_to[0].name}`);
       $('.age_range').text(`Age Range: ${detail.belongs_to[0].age_range}`);
       $('.linkphone').text(`Hack Init Date: ${detail.belongs_to[0].link_to_phone_start_date}`);
       $('.addresses').text(`Tracked Addresses: ${detail.current_addresses[0].street_line_1}, ${detail.current_addresses[1].street_line_1}.`);
       $('.state1').text(`State: ${detail.current_addresses[0].state_code}`);
       $('.city1').text(`City: ${detail.current_addresses[0].city}`);
+      $('.associates0').text(`Associates: ${detail.associated_people[0].name}`);
+        $('.associates1').text(`Associates: ${detail.associated_people[1].name}`);
+          $('.associates2').text(`Associates: ${detail.associated_people[2].name}`);
+            $('.associates3').text(`Associates: ${detail.associated_people[3].name}`);
+              $('.associates4').text(`Associates: ${detail.associated_people[4].name}`);
+                $('.associates5').text(`Associates: ${detail.associated_people[5].name}`);
 
 
     }
