@@ -49,11 +49,14 @@ $(document).ready(function() {
       $('.city1').text(`City: ${detail.current_addresses[0].city}`);
       $('.carrier').text(`Carrier: ${detail.carrier}`);
       $('.associates0').text(`Associates: ${detail.associated_people[0].name}`);
-        $('.associates1').text(`Associates: ${detail.associated_people[1].name}`);
-          $('.associates2').text(`Associates: ${detail.associated_people[2].name}`);
-            $('.associates3').text(`Associates: ${detail.associated_people[3].name}`);
-              $('.associates4').text(`Associates: ${detail.associated_people[4].name}`);
-                $('.associates5').text(`Associates: ${detail.associated_people[5].name}`);
+      $('.associates1').text(`Associates: ${detail.associated_people[1].name}`);
+      $('.associates2').text(`Associates: ${detail.associated_people[2].name}`);
+      $('.associates3').text(`Associates: ${detail.associated_people[3].name}`);
+      $('.associates4').text(`Associates: ${detail.associated_people[4].name}`);
+      $('.associates5').text(`Associates: ${detail.associated_people[5].name}`);
+      $('.associates6').text(`Associates: ${detail.associated_people[6].name}`);
+      $('.associates7').text(`Associates: ${detail.associated_people[7].name}`);
+      $('.associates8').text(`Associates: ${detail.associated_people[8].name}`);
 
 
     }
