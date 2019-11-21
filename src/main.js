@@ -47,6 +47,7 @@ $(document).ready(function() {
       $('.addresses').text(`Tracked Addresses: ${detail.current_addresses[0].street_line_1}, ${detail.current_addresses[1].street_line_1}.`);
       $('.state1').text(`State: ${detail.current_addresses[0].state_code}`);
       $('.city1').text(`City: ${detail.current_addresses[0].city}`);
+      $('.carrier').text(`Carrier: ${detail.carrier}`);
       $('.associates0').text(`Associates: ${detail.associated_people[0].name}`);
         $('.associates1').text(`Associates: ${detail.associated_people[1].name}`);
           $('.associates2').text(`Associates: ${detail.associated_people[2].name}`);
