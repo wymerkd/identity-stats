@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: lightgrey;
+  background-color: lightblue;
+  text-align: center;
 }
 
 h1 {
@@ -21,4 +22,8 @@ h5 {
 
 button {
   font-family: 'Anton', sans-serif;
+}
+
+.bothInputs {
+  display: grid;
 }
